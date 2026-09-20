@@ -1,0 +1,20 @@
+node_modules/
+*.html
+*.json
+systems.json
+.DS_Store
+*.log
+vc_query.db
+*.db
+# Never publish: captured production dependency sources and live caches
+capture/
+*-od-graph.json
+*-od-graph.html
+variant_functions_*.json
+vf_io_analysis_*.json
+systems.json
+migration-plan-*.md
+migration-status-*.md
+fix_char_type.py
+__pycache__/
+*.pyc
